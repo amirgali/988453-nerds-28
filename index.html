@@ -1,93 +1,188 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Нёрдс</title>
-  </head>
-  <body>
 
-    <header class="header">
-      
-      <section class="header__menu">
-        <img src="img/logo.png" alt="Логотип сайта Nerds" width="160" height="65">
-        <ul class="header__list">
-          <li class="header__item">Студия</li>
-          <li class="header__item">Клиенты</li>
-          <li class="header__item">Магазин</li>
-          <li class="header__item">Контакты</li>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Нёрдс</title>
+</head>
+
+<body>
+
+  <header class="header">
+
+    <section class="header__menu">
+      <img src="img/logo.png" alt="Логотип сайта Nerds" width="160" height="65">
+      <ul class="header__list">
+        <li class="header__item">Студия</li>
+        <li class="header__item">Клиенты</li>
+        <li class="header__item">Магазин</li>
+        <li class="header__item">Контакты</li>
+      </ul>
+      <div class="header__cart">Корзина</div>
+    </section>
+    <section class="header__slider">
+      <div class="slider__info">
+        <h2 class="slider__title">
+          Долго, дорого, скрупулезно.
+        </h2>
+        <p class="slider__text">
+          Математически выверенный дизайн для вашего сайта или мобильного приложения.
+        </p>
+        <button class="slider__button btn">Узнать больше</button>
+      </div>
+
+      <div class="slider__info">
+        <h2 class="slider__title">
+          Любим математику как никто другой
+        </h2>
+        <p class="slider__text">
+          Никакого креатива, только математические формулы для расчета идеальных пропорций
+        </p>
+        <button class="slider__button btn">Узнать больше</button>
+      </div>
+
+      <div class="slider__info">
+        <h2 class="slider__title">
+          Только ночь, только хардкор
+        </h2>
+        <p class="slider__text">
+          Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.
+        </p>
+        <button class="slider__button btn">Узнать больше</button>
+      </div>
+    </section>
+
+  </header>
+
+  <main>
+
+    <section class="features">
+      <ul class="features__list">
+
+        <li class="features__item">
+          <img class="features__img" src="img/features__img-01.png" alt="Веб-сайты" width="300" height="146">
+          <h3 class="features__title">Веб-сайты</h3>
+          <p class="features__text">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+          <buttom class="features__button btn">Заказать</buttom>
+        </li>
+
+        <li class="features__item">
+          <img class="features__img" src="img/features__img-02.png" alt="Приложения" width="300" height="146">
+          <h3 class="features__title">Приложения</h3>
+          <p class="features__text">Покорите топ-10 приложений в AppStore и Google Play</p>
+          <buttom class="features__button btn">Заказать</buttom>
+        </li>
+
+        <li class="features__item">
+          <img class="features__img" src="img/features__img-03.png" alt="Презентации" width="300" height="146">
+          <h3 class="features__title">Презентации</h3>
+          <p class="features__text">Вы даже не подозреваете, насколько вы изумительны!</p>
+          <buttom class="features__button btn">Заказать</buttom>
+        </li>
+
+      </ul>
+    </section>
+
+    <section class="info">
+
+      <div class="info__left">
+        <div class="info__left__slogan">
+          Мы — маленькая, но гордая дизайн-студия из Краснодара.
+        </div>
+        <div class="info__left__text">
+          Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая
+          рук, как роботы.
+        </div>
+        <div class="info__left__title">
+          Выполняем заказы на разработку:
+        </div>
+        <ul class="info__left__list">
+          <li class="info__left__item">
+            Веб-сайтов любой сложности
+          </li>
+          <li class="info__left__item">
+            Мобильных приложений для iOS и Android
+          </li>
+          <li class="info__left__item">
+            Слайдшоу и видео для корпоративных презентаций
+          </li>
         </ul>
-        <div class="header__cart">Корзина</div>
-      </section>
-      <section class="header__slider">
-        <div class="slider__info">
-          <h2 class="slider__title">
-            Долго, дорого, скрупулезно.
-          </h2>
-          <p class="slider__text">
-            Математически выверенный дизайн для вашего сайта или мобильного приложения.
-          </p>
-          <button class="slider__button btn">Узнать больше</button>
+
+      </div>
+
+      <div class="info__right">
+
+        <img src="" alt="" class="info__right__logo">
+        <div class="info__right__slogan">
+          с 2004 года Любим точность во всем:
         </div>
-
-        <div class="slider__info">
-          <h2 class="slider__title">
-            Любим математику как никто другой
-          </h2>
-          <p class="slider__text">
-            Никакого креатива, только математические формулы для расчета идеальных пропорций
-          </p>
-          <button class="slider__button btn">Узнать больше</button>
-        </div>
-
-        <div class="slider__info">
-          <h2 class="slider__title">
-            Только ночь, только хардкор
-          </h2>
-          <p class="slider__text">
-            Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.
-          </p>
-          <button class="slider__button btn">Узнать больше</button>
-        </div>
-      </section>
-
-    </header>
-
-    <main>
-
-      <section class="features">
-        <ul class="features__list">
-
-          <li class="features__item">
-            <img class="features__img" src="img/features__img-01.png" alt="Веб-сайты" width="300" height="146">
-            <h3 class="features__title">Веб-сайты</h3>
-            <p class="features__text">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-            <buttom class="features__button btn">Заказать</buttom>
+        <ul class="info__right__list">
+          <li class="info__right__item">
+            <span class="info__right__percent">146</span>
+            <p class="info__right__text">
+              Уровень самоотдачи
+            </p>
           </li>
-
-          <li class="features__item">
-            <img class="features__img" src="img/features__img-02.png" alt="Приложения" width="300" height="146">
-            <h3 class="features__title">Приложения</h3>
-            <p class="features__text">Покорите топ-10 приложений в AppStore и Google Play</p>
-            <buttom class="features__button btn">Заказать</buttom>
+          <li class="info__right__item">
+            <span class="info__right__percent">100</span>
+            <p class="info__right__text">
+              Соблюдение сроков
+            </p>
           </li>
-
-          <li class="features__item">
-            <img class="features__img" src="img/features__img-03.png" alt="Презентации" width="300" height="146">
-            <h3 class="features__title">Презентации</h3>
-            <p class="features__text">Вы даже не подозреваете,  насколько вы изумительны!</p>
-            <buttom class="features__button btn">Заказать</buttom>
+          <li class="info__right__item">
+            <span class="info__right__percent">50</span>
+            <p class="info__right__text">
+              Минимальная предоплата
+            </p>
           </li>
-
         </ul>
-      </section>
+      </div>
+
+    </section>
+
+    <section class="logo-projects">
+      <img src="" alt="" class="logo-projects__img">
+      <img src="" alt="" class="logo-projects__img">
+      <img src="" alt="" class="logo-projects__img">
+      <img src="" alt="" class="logo-projects__img">
+    </section>
+
+    <section class="map">
+
+      <div class="map__info">
+        <h4 class="map__title">
+
+        </h4>
+        <adress class="map__adress">
+
+        </adress>
+        <p>
+          <tel class="map__tel"></tel>
+        </p>
+        <button class="map__button btn"></button>
+      </div>
+
+    </section>
 
 
-      
-    </main>
+  </main>
 
-    <footer>
-      
-    </footer>
+  <footer class="footer">
 
-  </body>
+    <div class="footer__social">
+
+    </div>
+    <div class="footer__slogan">
+      <p class="footer__title">
+        Давайте дружить, это выгодно!
+      </p>
+      <p class="footer__text">
+        Скидка 10% для друзей из социальных сетей.
+      </p>
+    </div>
+
+  </footer>
+
+</body>
+
 </html>
